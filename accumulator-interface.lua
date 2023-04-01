@@ -40,7 +40,7 @@ local function AccumulatorInterfaceEntity(accumulator)
     },
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{0, 0}, {0, 0}},
-	  hidden = true,
+    hidden = true,
     energy_source =
     {
       type = "electric",

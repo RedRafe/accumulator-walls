@@ -26,7 +26,6 @@ local function Technology(technology_tier)
         type = "unlock-recipe",
         recipe = technology_tier.name
       }
-
     },
     prerequisites = technology_tier.prerequisites,
     unit =

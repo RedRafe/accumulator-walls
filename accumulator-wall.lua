@@ -32,7 +32,7 @@ end
     ingredients = 
     {
       {"accumulator", 1},
-	    {"stone-wall", settings.startup["accumulator-wall-recipe-ratio"].value}
+      {"stone-wall", settings.startup["accumulator-wall-recipe-ratio"].value}
     }
     result_count = settings.startup["accumulator-wall-recipe-ratio"].value
 ]]
@@ -44,7 +44,7 @@ local function WallRecipe(wall_tier)
     enabled = false,
     ingredients = wall_tier.ingredients,
     result = wall_tier.name,
-	  result_count = wall_tier.result_count
+    result_count = wall_tier.result_count
   }
 end
 

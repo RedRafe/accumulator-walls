@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2023.04.01
+  Bugfixes:
+    - Fixed accumulator-interface not being destroyed when using cut tool in editor mode
+    - Added migration from previous versions
+  Features:
+    - Added Picker Dollies compatibility
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
   Changes:
     - Fixed interaction with mods that use 'script_raised_destroy' event (@thomaslunn)
@@ -10,4 +18,3 @@ Version: 0.1.1
 Version: 0.1.0
   Info:
     - Initial release
----------------------------------------------------------------------------------------------------
