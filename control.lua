@@ -4,8 +4,8 @@ AWControl.interface = {
   ["accumulator-wall"] = "accumulator-interface"
 }
 
-AWControl.isKey = function(entity)
-  return AWControl.interface[entity.name] ~= nil
+AWControl.isKey = function(entity_name)
+  return AWControl.interface[entity_name] ~= nil
 end
 
 -- BUILD INTERFACE
