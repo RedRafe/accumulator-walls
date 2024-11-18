@@ -35,7 +35,7 @@ local wall_tier = {
 local technology_tier = {
   {
     name = 'accumulator-wall',
-    prerequisites = { 'electric-energy-accumulators' },
+    prerequisites = { 'electric-energy-accumulators', 'stone-wall' },
     count = 160,
     ingredients = {
       { 'automation-science-pack', 1 },
