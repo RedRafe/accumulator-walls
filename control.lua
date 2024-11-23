@@ -58,6 +58,7 @@ script.on_event(defines.events.on_player_mined_entity, on_destroy, accumulator_w
 script.on_event(defines.events.on_robot_mined_entity,  on_destroy, accumulator_wall_filters)
 script.on_event(defines.events.on_entity_died,         on_destroy, accumulator_wall_filters)
 script.on_event(defines.events.script_raised_destroy,  on_destroy, accumulator_wall_filters)
+script.on_event(defines.events.on_space_platform_mined_entity, on_destroy, accumulator_wall_filters)
 
 -- @ dolly_event 
 --  .player_index: player_index, The index of the player who moved the entity
